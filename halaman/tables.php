@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Home</title>
+    <title>Tables</title>
 </head>
 
 <body>
     <div class="container-fluid mt-2">
         <div class="table-responsive">
-            <table class="table table-bordered text-center">
+            <table class="table table-bordered text-center table-hover">
                 <thead class="table-dark">
                     <tr>
                         <th scope="col">No</th>
@@ -22,7 +22,6 @@
                         <th scope="col">No HP</th>
                     </tr>
                 </thead>
-                <tbody>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
@@ -42,7 +41,6 @@
                         <td>zxocy@gmail.com</td>
                         <td>08564738193</td>
                     </tr>
-                </tbody>
                 </tbody>
             </table>
         </div>

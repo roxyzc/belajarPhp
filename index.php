@@ -21,7 +21,7 @@
     <!-- Navbar atas -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-none d-sm-block">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pw11</a>
+            <a class="navbar-brand" href="#">Roxyzc</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,8 +44,8 @@
                                     else here</a></li>
                         </ul>
                     </div>
-                    <li class="nav-item"><a class="nav-link" href="?page=about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="?page=contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?page=about"><i class="bi bi-file-person"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?page=contact"><i class="bi bi-person-lines-fill"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -109,10 +109,10 @@
                     </div>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="?page=about">About</a>
+                        <a class="nav-link" href="?page=about"><i class="bi bi-file-person"></i> About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?page=contact">Contact</a>
+                        <a class="nav-link" href="?page=contact"><i class="bi bi-person-lines-fill"></i> Contact</a>
                     </li>
                 </ul>
             </div>
