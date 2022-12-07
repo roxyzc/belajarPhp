@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -27,16 +28,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="?page=home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="?page=home"><i class="bi bi-house-door-fill"></i> Home</a>
                     </li>
                     <div class="btn-group dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Profile
+                            Boostrap 5
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="?page=grid">Grid</a></li>
-                            <li><a class="dropdown-item" href="#">Another
-                                    action</a></li>
+                            <li><a class="dropdown-item" href="?page=tables">Tables</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -68,6 +68,9 @@
             case "grid":
                 include "halaman/grid.php";
                 break;
+            case "tables":
+                include "halaman/tables.php";
+                break;
             default:
                 echo "Maaf. Halaman tidak di temukan !";
                 break;
@@ -84,18 +87,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="?page=home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="?page=home"><i class="bi bi-house-door-fill"></i> Home</a>
                     </li>
 
                     <!-- Default dropup button -->
                     <div class="btn-group dropup">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Profile
+                            Boostrap 5
                         </a>
                         <ul class="dropdown-menu">
                             <!-- Dropdown menu links -->
                             <li><a class="dropdown-item" href="?page=grid">Grid</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="?page=tables">Tables</a></li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
