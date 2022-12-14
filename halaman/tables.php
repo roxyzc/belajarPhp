@@ -1,6 +1,6 @@
 <div class="container-fluid mt-2">
     <div class="table-responsive">
-        <table class="table table-bordered text-center table-hover table-striped">
+        <table id="tables" class="table table-bordered text-center table-hover table-striped">
             <thead class="table-dark">
                 <tr>
                     <th scope="col">No</th>
