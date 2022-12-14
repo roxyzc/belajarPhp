@@ -72,7 +72,7 @@
                 include "halaman/tables.php";
                 break;
             default:
-                echo "Maaf. Halaman tidak di temukan !";
+                echo "<h1 class=\"text-center\">PAGE NOT FOUND</h1>";
                 break;
         }
     } else {
